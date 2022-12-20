@@ -7,6 +7,7 @@ export const Title = styled.h2`
 `;
 export const List = styled.ul`
   display: flex;
+  flex-direction: column;
   gap: 10px;
   justify-content: space-between;
 `;

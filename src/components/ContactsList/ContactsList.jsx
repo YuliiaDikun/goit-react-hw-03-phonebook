@@ -36,6 +36,6 @@ export const ContactsList = ({ contacts, deleteContact }) => {
 };
 
 ContactsList.propTypes = {
-  contacts: PropTypes.arrayOf(PropTypes.string),
+  contacts: PropTypes.arrayOf(PropTypes.object),
   deleteContact: PropTypes.func,
 };
